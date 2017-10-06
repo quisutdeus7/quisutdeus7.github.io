@@ -36,7 +36,7 @@ L1 = tf.nn.max_pool(L1, ksize=[1,2,2,1], strides=[1,2,2,1], padding='SAME')
 # X가 32개이고 필터가 64개
 W2 = tf.Variable(tf.random_normal([3, 3, 32, 64], stddev=0.01))
 
-# L2의 Conv 형태 = (?,14,14,64),          때문
+# L2의 Conv 형태 = (?,14,14,64), 몇 장인지 안 정해져 있었기에 ?임.
 L2 = tf.nn.conv2d(L1, W2, strides=[1, 1, 1, 1], padding='SAME')
 L2 = tf.nn.relu(L2)
 L2 = tf.nn.max_pool(L2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
