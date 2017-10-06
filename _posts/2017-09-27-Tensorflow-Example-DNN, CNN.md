@@ -51,6 +51,9 @@ L3 = tf.nn.relu(L3)
 
 # Dropout을 통해 일부 노드는 활동을 멈춘다. But! 효율은 올라감.
 L3 = tf.nn.dropout(L3, keep_prob)
+
+# 최종 출력값 L3 에서의 출력 256개를 입력값으로 받아서 0~9 레이블인 10개의 출력값을 만듭니다.
+W4 = tf.Variable(tf.random_normal([256, 10], stddev=0.01))
 ```
 Q2. strides의 요소들의 의미는?
 
@@ -59,8 +62,6 @@ Q3. stddev의 의미는?
 Q4. ksize의 요소들의 의미는?
 
 ```python
-# 최종 출력값 L3 에서의 출력 256개를 입력값으로 받아서 0~9 레이블인 10개의 출력값을 만듭니다.
-W4 = tf.Variable(tf.random_normal([256, 10], stddev=0.01))
 model = tf.matmul(L3, W4)
 
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=model, labels=Y))
