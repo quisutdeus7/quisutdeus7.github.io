@@ -23,8 +23,9 @@ keep_prob = tf.placeholder(tf.float32)
 Q1. Y는 무슨 의미?****
 
 ```python
-# convolution layer를 통과 시킴 stride : 가운데 2요소가 움직이는 칸의 수 ㅇㅇ
+# convolution layer를 통과 시킴 stride : 가운데 2요소가 움직이는 칸의 수
 # X : 이미지, W1 : 무게, SAME : 원래 이미지랑 같게 나오도록 해주는 설정.
+W1 = tf.Variable(tf.random_normal([3,3,1,32], stddev= 0.1))
 L1 = tf.nn.conv2d(X,W1,strides=[1,1,1,1],padding='SAME')
 L1 = tf.nn.relu(L1)
 
@@ -35,7 +36,7 @@ L1 = tf.nn.max_pool(L1, ksize=[1,2,2,1], strides=[1,2,2,1], padding='SAME')
 # X가 32개이고 필터가 64개
 W2 = tf.Variable(tf.random_normal([3, 3, 32, 64], stddev=0.01))
 
-# L2의 Conv 형태 = (?,14,14,64)
+# L2의 Conv 형태 = (?,14,14,64), 몇 장인지 안 정해져 있었기에 ?임.
 L2 = tf.nn.conv2d(L1, W2, strides=[1, 1, 1, 1], padding='SAME')
 L2 = tf.nn.relu(L2)
 L2 = tf.nn.max_pool(L2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
@@ -51,6 +52,9 @@ L3 = tf.nn.relu(L3)
 
 # Dropout을 통해 일부 노드는 활동을 멈춘다. But! 효율은 올라감.
 L3 = tf.nn.dropout(L3, keep_prob)
+
+# 최종 출력값 L3 에서의 출력 256개를 입력값으로 받아서 0~9 레이블인 10개의 출력값을 만듭니다.
+W4 = tf.Variable(tf.random_normal([256, 10], stddev=0.01))
 ```
 Q2. strides의 요소들의 의미는?
 
@@ -59,14 +63,11 @@ Q3. stddev의 의미는?
 Q4. ksize의 요소들의 의미는?
 
 ```python
-# 최종 출력값 L3 에서의 출력 256개를 입력값으로 받아서 0~9 레이블인 10개의 출력값을 만듭니다.
-W4 = tf.Variable(tf.random_normal([256, 10], stddev=0.01))
 model = tf.matmul(L3, W4)
 
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=model, labels=Y))
 optimizer = tf.train.AdamOptimizer(0.001).minimize(cost)
 # 최적화 함수를 RMSPropOptimizer 로 바꿈
-# --> 
 
 #########
 # 신경망 모델 학습
