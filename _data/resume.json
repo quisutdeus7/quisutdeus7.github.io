@@ -1,48 +1,46 @@
 {
   "basics": {
-    "name": "Richard Hendricks",
+    "name": "Moonhyeok song (English name : Michael)",
     "label": "Programmer",
-    "picture": "https://placehold.it/126x126",
-    "email": "",
-    "phone": "(912) 555-4321",
-    "website": "https://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation! Open `_data/resume.json` to edit this text.",
+    "picture": "",
+    "email": "firefinger07@gmail.com",
+    "phone": "(+82) 10-9790-8103",
+    "website": "",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "Republic of Korea",
+      "region": ""
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
+        "network": "facebook",
+        "username": "moonhyeok Michael Song",
         "url": ""
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "instagram",
+        "username": "mike2ox",
+        "url": ""
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "https://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
+      "company": "KIST-Europe",
+      "position": "Intern in smartconvergence",
+      "website": "https://kist-europe.de",
+      "startDate": "2017-09-01",
+      "endDate": "2018-02-28",
+      "summary": "My research is to analyze images of 3D models using the latest technology, machine learning. But I am still immature in this technology. Then, I am currently doing a ML seminar.",
+      "highlights":[
+        "Machine learning",
+        "3D Modeling by Blender"]
     }
   ],
-  "volunteer": [
+  /* "volunteer": [
     {
       "organization": "CoderDojo",
       "position": "Teacher",
@@ -54,22 +52,22 @@
         "Awarded 'Teacher of the Month'"
       ]
     }
-  ],
+  ],*/
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
+      "institution": "Kyunghee University",
+      "area": "Computer Engineering",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
+      "startDate": "2012-03-02",
+      "endDate": "~ 2019-02-28",
+      "gpa": "3.1 / 4.3"
+      //"courses": [
+        //"DB1101 - Basic SQL",
+        //"CS2011 - Java Introduction"
+      //]
     }
   ],
-  "awards": [
+ /* "awards": [
     {
       "title": "Digital Compression Pioneer Award",
       "date": "2014-11-01",
@@ -85,46 +83,67 @@
       "website": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
       "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
-  ],
+  ],*/
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+      "name": "Neural Network Development",
+      "level": "beginner",
+      "keywords":[
+        "CNN",
+        "RNN"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+      "name": "App Development",
+      "level": "Advanced",
+      "keywords":[
+        "Android",
+        "PHP"
+      ]
+    },
+    {
+      "name": "C++ Development",
+      "level": "Advanced",
+      "keywords":[
+        "OOP"
       ]
     }
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Korean",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Amatuer speaker"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Cooking",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Korean",
+        "Chinese",
+        "Europe"
+      ]
+    },
+    {
+      "name": "Exercise",
+      "keywords": [
+        "Baseball",
+        "Squash",
+        "Basketball",
+        "Hiking",
+        "Weight Training"
       ]
     }
-  ],
+  ]
+  /*
   "references": [
     {
       "name": "Erlich Bachman",
       "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
     }
-  ]
+  ]*/
 }

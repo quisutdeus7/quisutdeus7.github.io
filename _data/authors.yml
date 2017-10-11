@@ -1,9 +1,9 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
-qwtel:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+quisutdeus7:
+  name:              Moonhyeok Song
+  email:             firefinger07@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -26,8 +26,8 @@ qwtel:
   # Comment/uncommet to show/hide
   # Icons appear in order, can be rearranged:
   social:
-    # facebook:        <username>
-    twitter:         <username>
+    facebook:        Moonhyeok michael Song
+    # twitter:         <username>
     # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
@@ -36,7 +36,7 @@ qwtel:
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    # instagram:       <username>
+    instagram:       mike2ox
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
@@ -50,7 +50,7 @@ qwtel:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    github:          <username>
+    github:          quisutdeus7
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
@@ -61,8 +61,8 @@ qwtel:
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    email:           mailto:<mail@domain.tld>
-    rss:             https://<url>/feed.xml
+    email:           firefinger07@gmail.com
+    #rss:             https://<url>/feed.xml
 
 # Another author
 mdo:
