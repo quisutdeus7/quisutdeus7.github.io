@@ -20,7 +20,7 @@ Y = tf.placeholder(tf.float32, [None,10])
 
 keep_prob = tf.placeholder(tf.float32)
 ```
-Q1. Y는 무슨 의미?
+Q1. Y는 무슨 의미?****
 
 ```python
 # convolution layer를 통과 시킴 stride : 가운데 2요소가 움직이는 칸의 수 ㅇㅇ

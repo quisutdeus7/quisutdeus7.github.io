@@ -1,0 +1,16 @@
+*<a> Tensorboard 뽀개기(1)* </a>
+==================================
+
+## 1. TensorBoard란?
+TensorFlow에 기록된 로그들을 토대로 그래프로 시각화 해주는 도구로서  
+TensorFlow의 결과 비교나 변화를 보기 쉽게 해준다.
+
+## 2. TensorBoard 실행 준비
+
+
+```commandline
+$ tensorboard --logdir=/tmp/smaple
+```
+
+
+
