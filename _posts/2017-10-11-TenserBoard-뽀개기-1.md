@@ -18,6 +18,4 @@ tensorboard --logdir= path to logdir
 <font color = tomato>※ 여기서 경로 설정을 잘못하면 graph가 제대로 출력되지 않을 수 있다.(ex. 빈화면)</font>
 
 > 만약에 경로를 잘못 입력하면 다음과 같은 결과가 나온다.  
- ![터미널에서의 결과](https://github.com/quisutdeus7/quisutdeus7.github.io/blob/master/_data/img/tensorboard_error_1.PNG)
- 
-
+ ![터미널에서의 결과](https://github.com/quisutdeus7/quisutdeus7.github.io/_data/img/tensorboard_error_1.PNG)
