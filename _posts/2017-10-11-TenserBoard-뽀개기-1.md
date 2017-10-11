@@ -10,12 +10,12 @@ TensorFlow의 결과 비교나 변화를 보기 쉽게 해준다.
 
 ## 3. TensorBoard 실행시키기
 ```anaconda commandline
-tensorboard --logdir= path to logdir
-```
+tensorboard --logdir= path to logdir   
+```   
 위의 명령어는  
 '루트 폴더 아래의 특정 경로에 있는 directory안의 로그파일을 보겠다'  
-라는 의미의 코드로 tensorflow 소스코드 안에 작성한 FileWriter 함수 parameter 들 중에 경로값과 일치해야 한다.  
-<font color = tomato>※ 여기서 경로 설정을 잘못하면 graph가 제대로 출력되지 않을 수 있다.(ex. 빈화면)</font>
+라는 의미의 코드로 tensorflow 소스코드 안에 작성한 FileWriter 함수 parameter 들 중에 경로값과 일치해야 한다.    
+※ 여기서 경로 설정을 잘못하면 graph가 제대로 출력되지 않을 수 있다.(ex. 빈화면)
 
 > 만약에 경로를 잘못 입력하면 다음과 같은 결과가 나온다.  
  ![터미널에서의 결과](https://github.com/quisutdeus7/quisutdeus7.github.io/_data/img/tensorboard_error_1.PNG)
