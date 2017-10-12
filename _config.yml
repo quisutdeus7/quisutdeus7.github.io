@@ -11,7 +11,7 @@ url: https://quisutdeus7.github.io
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
-baseurl: //quisutdeus7.github.io
+baseurl: 
 
 # A very short description of your page
 tagline:             A pretentious two-column Jekyll theme.
@@ -27,7 +27,7 @@ author:
   email:             firefinger07@gmail.com
 
 # Fallback image and color
-image:               /hydejack/assets/img/nap.jpg
+image:               /assets/img/nap.jpg
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
