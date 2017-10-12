@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Posts
+title: Recently Posts
 # menu: true
 # order: 2
 ---
