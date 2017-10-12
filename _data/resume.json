@@ -61,9 +61,9 @@
       "startDate": "2012-03-02",
       "endDate": "~ 2019-02-28",
       "gpa": "3.1 / 4.3"
-      //"courses": [
-        //"DB1101 - Basic SQL",
-        //"CS2011 - Java Introduction"]
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"]
     }
   ],
  "awards": [
