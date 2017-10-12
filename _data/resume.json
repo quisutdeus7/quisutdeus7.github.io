@@ -40,7 +40,7 @@
         "3D Modeling by Blender"]
     }
   ],
-  /* "volunteer": [
+   "volunteer": [
     {
       "organization": "CoderDojo",
       "position": "Teacher",
@@ -52,7 +52,7 @@
         "Awarded 'Teacher of the Month'"
       ]
     }
-  ],*/
+  ],
   "education": [
     {
       "institution": "Kyunghee University",
@@ -67,7 +67,7 @@
       //]
     }
   ],
- /* "awards": [
+ "awards": [
     {
       "title": "Digital Compression Pioneer Award",
       "date": "2014-11-01",
@@ -83,7 +83,7 @@
       "website": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
       "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
-  ],*/
+  ],
   "skills": [
     {
       "name": "Neural Network Development",
@@ -139,11 +139,10 @@
       ]
     }
   ]
-  /*
   "references": [
     {
       "name": "Erlich Bachman",
       "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
     }
-  ]*/
+  ]
 }
