@@ -56,8 +56,10 @@ saver.save(sess, './model/dnn.ckpt', global_step=global_step)
 
 ## 6. Tensorboard에 표시된 결과물
 ### 1) Main Graph  
-<img src="https://raw.githubusercontent.com/quisutdeus7/quisutdeus7.github.io/master/_data/img/tensorboard_basic2_graph.PNG" width="70%" align = "" >  
+<img src="https://raw.githubusercontent.com/quisutdeus7/quisutdeus7.github.io/master/_data/img/tensorboard_basic2_graph.PNG" width="70%" align = "" >
 
+ 위 그래프는 node들을 따로 정리하지 않아서 clear하지 않는 형태이다. Tensorboard 화면에서 *remove from main graph* 기능을 실행하면
+ 깔끔하게 정리가 가능하다.
   
 ### 2) Scalars
 <img src="https://raw.githubusercontent.com/quisutdeus7/quisutdeus7.github.io/master/_data/img/tensorboard_basic2_scalar.PNG" width="70%">
@@ -71,8 +73,10 @@ saver.save(sess, './model/dnn.ckpt', global_step=global_step)
 
 ## 6. 쓸데없을 수 있지만 고민한 흔적들 
 - 현재 review중인 code의 cost가 왜 0.550에 머무는가
-- with와 name_scope를 사용여부에 따른 그래프의 형태 변화
-- 학습이 안되는 case에 대한 비교할 방도
+- with와 name_scope를 사용여부에 따른 그래프의 형태 변화  
+    : with와 name_scope를 사용하지 않을 경우 그래프가 매우 퍼져있는(?) 형태가 되어 한눈에 파악하기가 힘들다
+- 학습이 안되는 case에 대한 비교
+    : Learning rate 변화만 먼저 시험.
 - Histogram 함수도 with문 안에 있는데 왜 Tensorboard의 graph에 표현이 안되는가
 - Histograms에 그려져 있는 그래프들의 의미. 그리고 왜 epoch 과정중 일부가 표현이 안되어 있는가
 
