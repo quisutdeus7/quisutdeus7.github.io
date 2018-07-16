@@ -7,7 +7,7 @@ title: Michael's Vivre Card
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url: https://quisutdeus7.github.io
+url: https://mike2ox.github.io
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
@@ -22,7 +22,7 @@ description:         >
   요리 좋아하는, 개발자이고픈, 운동 좋아하는 청년의 Blog
 
 # This should be the same author as first entry in `_data/authors.yml`
-author:
+author:              mike2ox
   name:              Moonhyeok Song
   email:             firefinger07@gmail.com
 
