@@ -5,12 +5,21 @@
 
 ## Plan & Done
 - 2018`
-	- 상반기
-		- RL 스터디 진행
-		- 
-	- 여름
-		- CV 실무 프로젝트(python)
-		- 
+	- 상반기 (3~6)
+		- RL 스터디 (~ open gym tutorial)(Done)
+		- ACM 스터디 (Ing)
+
+	- 여름 (7~8)
+		- CV 실무 프로젝트(python, deeplearning)
+		- OS study(Linux 기반)
+		- ACM study(C++, python 병행)
+		- Java review --> 프로젝트(10일)
+
+	- 하반기 (9~12)
+		- 영어(TOFLE 90 > )
+		- ACM study(C++, python 병행)
+		- 졸업 프로젝트(CV+DL)
+		- Review & Summary (DB, 자료구조, OS)
 
 ## Contents
  - Language(M/A/J)
@@ -18,7 +27,8 @@
 	 - Python(A)
 	 - JAVA(J)
 	 - PHP(J)
-	 - 
+	 - Android(J)
+
  - Engineering Study
 	 - __Machine Learning__
 		 - Deep learning(CNN, RNN, GAN) (Ing)
