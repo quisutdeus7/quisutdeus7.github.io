@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Tensorboard 뽀개기(1)'
-categories: jekyll update
+categories: CE study
 ---
 
 ## 1. TensorBoard란?

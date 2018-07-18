@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "첫번째 포스팅"
+title:  "Blog 기초작업"
 date:   2017-09-26 00:25:56 +0200
-categories: jekyll update
+categories: Daily
 ---
 
 마크다운 작성법은 [이곳][이_곳]을 참조했다.
