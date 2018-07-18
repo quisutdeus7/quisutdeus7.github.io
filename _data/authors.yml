@@ -13,11 +13,11 @@ quisutdeus7:
 
   # This photo will be used in the about section
   picture:
-    src:             https://github.com/mike2ox/mike2ox.github.io/blob/master/_data/img/profile_104.jpg
+    src:             https://raw.githubusercontent.com/mike2ox/mike2ox.github.io/master/_data/img/profile_128.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://github.com/mike2ox/mike2ox.github.io/blob/master/_data/img/profile_104.jpg
-      2x:            https://github.com/mike2ox/mike2ox.github.io/blob/master/_data/img/profile_256.jpg
+      1x:            https://raw.githubusercontent.com/mike2ox/mike2ox.github.io/master/_data/img/profile_128.jpg
+      2x:            https://raw.githubusercontent.com/mike2ox/mike2ox.github.io/master/_data/img/profile_256.jpg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
