@@ -8,7 +8,7 @@ quisutdeus7:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    학부생에서 딥러닝 개발자로 거듭나기위해 분투중인 Moonhyeok Song.
+    학부생에서 딥러닝 개발자로 거듭나기위해 분투중인 Junior Programmer.  
     (그런데 요리가 취미라 code customize보다 recipe customize를 더 잘하는건 함정)
 
   # This photo will be used in the about section
@@ -47,7 +47,7 @@ quisutdeus7:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    github:          mikeo2x
+    github:          mike2ox
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
