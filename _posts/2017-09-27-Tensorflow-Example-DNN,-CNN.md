@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: blog
 title:  "Tensorflow Example 중 DNN,CNN"
 date:   2017-09-27 00:25:56 +0200
-categories: 'CE study'
+categories: 'CE_study'
 ---
 ※ 해당 포스트는 KIST 유럽연구소 인턴기간 중 실시한 TensorFlow 세미나의 과제를 정리하는 것으로
   기존 오픈된 소스코드나 자료를 활용할 수 있음.
