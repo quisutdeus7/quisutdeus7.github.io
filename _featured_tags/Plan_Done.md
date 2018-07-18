@@ -1,8 +1,8 @@
 ---
-layout: list
+layout: page
 title: Plan&Done
 slug: Plan&Done
-menu: false
+menu: True
 order: 1
 ---
 ## 2018`
