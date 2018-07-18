@@ -1,5 +1,5 @@
 ---
-layout: [post, list, page]
+layout: page
 title:  "Tensorflow Example 중 DNN,CNN"
 date:   2017-09-27 00:25:56 +0200
 categories: 'CE study'
