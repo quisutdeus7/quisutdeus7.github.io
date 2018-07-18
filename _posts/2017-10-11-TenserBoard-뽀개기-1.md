@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Tensorboard 뽀개기(1)'
-categories: '"CE" study'
+categories: 'CE_study'
 ---
 
 ## 1. TensorBoard란?

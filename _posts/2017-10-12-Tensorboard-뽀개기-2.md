@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Tensorboard 뽀개기(2)'
-categories: 'CE study'
+categories: 'CE_study'
 ---
 
 > *※ 지난 [Tensorboard 뽀개기(1)](https://quisutdeus7.github.io/jekyll/update/2017/10/11/TenserBoard-%EB%BD%80%EA%B0%9C%EA%B8%B0-1/)에 이어서 실제 Tensorboad를 활용한 [예제](https://github.com/golbin/TensorFlow-Tutorials/tree/master/05%20-%20TensorBoard%2C%20Saver)를 구현해가면서 기능을 알아봄.*

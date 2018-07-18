@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Language
 slug: Language
 menu: true

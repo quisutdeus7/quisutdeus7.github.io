@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 'CE Study'
-slug: '"CE" Study'
+title: 'CE_study'
+slug: 'CE_study'
 menu: true
 order: 3
 description: >
