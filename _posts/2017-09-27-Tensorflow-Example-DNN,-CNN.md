@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Tensorflow Example 중 DNN,CNN"
 date:   2017-09-27 00:25:56 +0200
 categories: 'CE study'

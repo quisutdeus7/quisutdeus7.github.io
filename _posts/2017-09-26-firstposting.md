@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: post
 title:  "Blog 기초작업"
 date:   2017-09-26 00:25:56 +0200
 categories: Daily

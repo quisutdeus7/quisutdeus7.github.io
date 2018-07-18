@@ -2,7 +2,7 @@
 layout: list
 title: Plan&Done
 slug: Plan&Done
-menu: true
+menu: false
 order: 1
 ---
 ## 2018`

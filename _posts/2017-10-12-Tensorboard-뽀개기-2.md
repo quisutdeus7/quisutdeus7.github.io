@@ -1,5 +1,5 @@
 ---
-layout: post, list
+layout: post
 title: 'Tensorboard 뽀개기(2)'
 categories: 'CE study'
 ---
