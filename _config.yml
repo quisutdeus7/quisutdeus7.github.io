@@ -19,7 +19,8 @@ tagline:             A pretentious two-column Jekyll theme.
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  코딩보다 요리 삽질이 익숙한 여행자
+  코딩 삽질보다 요리 삽질이 익숙한
+  여행자
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:  
@@ -54,7 +55,7 @@ disqus_shortname:    mike2ox
 copyright:           '&copy; 2018. All rights reserved.'
 
 # Format of the permalinks
-permalink:           pretty
+permalink:           
 
 # Pagination configuration (used by the `blog` layout)
 paginate:            5
@@ -97,7 +98,7 @@ collections:
 #  Advanced configuration
 # -----------------------------------------------------------------------------
 
-gems:
+plugins:
   - jekyll-default-layout
   - jekyll-feed
   - jekyll-optional-front-matter
@@ -131,4 +132,4 @@ compress_html:
 sass:
   style:             compressed
 
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
