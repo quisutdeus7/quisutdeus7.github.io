@@ -13,7 +13,7 @@ order: 1
 
 ### 여름 (7~8)  
 
-- [ ] CV 실무 프로젝트(python, deeplearning)
+- [ ] 머신러닝 알고리즘 및 딥러닝 데이터 처리 관련 학습
 - [ ] OS study(Linux 기반)
 - [ ] ACM study(C++, python 병행)
 - [ ] Java review --> 프로젝트(10일)  
